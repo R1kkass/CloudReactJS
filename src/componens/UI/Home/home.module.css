@@ -1,0 +1,82 @@
+.home{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+
+    align-items: center;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100vh;
+    animation: showLeft 1s;
+}
+
+
+.divOne{
+    margin-top: -120px;
+    height: 100%;
+    align-items: center;
+    display: grid;
+    justify-content: center;
+    
+    grid-template-columns: 60% 40%;
+    grid-row: 1;
+}
+
+.divOne h1{
+    margin-left: 20px;
+    font-weight: 400;
+    font-size: 3.5rem;
+}
+
+.link{
+    color: white;
+    background-color: rgb(0, 123, 145);
+    width: 50%;
+    border: solid 1px rgb(0, 123, 145);
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 100;
+    transition: 0.3s;
+}
+
+.link:hover{
+    background-color: rgb(0, 87, 102);
+}
+
+.linkReg{
+    margin-left: 20px;
+    text-decoration: none;
+    color: rgb(0, 87, 102);
+}
+
+.text{
+    margin-left: 20px;
+    color: gray;
+    display: flex;
+    align-items: center;
+}
+
+.divOne h4{
+    margin-left: 20px;
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+    
+    @keyframes showLeft {
+    
+    from {
+    opacity:0;
+    margin-top: 100px;
+    }
+    
+    to {opacity:1;}
+    
+    }
+    

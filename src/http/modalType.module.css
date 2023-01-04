@@ -1,0 +1,20 @@
+.buttonsModal{
+    display: flex;
+    justify-content: space-evenly;
+       
+}
+
+.buttonsModal button{
+    font-size: 20px;
+    width: 170px;
+}
+
+.buttonsModal button:hover{
+    font-size: 20px;
+    width: 170px;
+}
+
+.buttonsModal button:active{
+    background-color: rgb(67, 227, 255);
+    color: white;
+}

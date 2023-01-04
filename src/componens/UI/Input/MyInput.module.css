@@ -1,0 +1,14 @@
+.myInput{
+    width: 35vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    height: 34px;
+    border: 1px rgb(87, 122, 235) solid;
+    border-radius: 5px;
+    padding-left: 10px;
+    outline: none;
+    font-size: 20px;
+    background-color: rgb(201, 243, 201);
+}

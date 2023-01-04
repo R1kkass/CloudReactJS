@@ -1,0 +1,73 @@
+.myModal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: none;
+    background: rgba(0,0,0, 0.5);
+    animation: showRight 1s;
+}
+
+    
+    .myModalContent {
+    
+    padding: 25px;
+    background: white;
+    border-radius: 5px;
+    min-width: 50%;
+    border: solid 2px rgb(0, 123, 145);
+    transition: 0.3s;
+    max-width: 80%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: 80%;
+    }
+    
+    .myModalContent img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .myModalContent video{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+    }
+
+.myModalContent img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .myModal.active {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+    animation: showLeft 1s;
+    }
+
+
+    @keyframes showLeft {
+    
+        from {
+        opacity:0
+        }
+        
+        to {opacity:1;}
+        
+        }
+
+    @keyframes showRight {
+    
+        from {
+        opacity:1
+        }
+        
+        to {opacity:1;}
+        
+        }    
